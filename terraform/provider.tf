@@ -11,6 +11,7 @@ terraform {
       source  = "DopplerHQ/doppler"
       version = "1.21.1"
     }
+
     upstash = {
       source  = "upstash/upstash"
       version = "2.1.0"

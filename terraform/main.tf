@@ -4,8 +4,8 @@ resource "upstash_qstash_topic_v2" "events" {
   endpoints = [
     # npx @upstash/qstash-cli@latest dev
 
-    # "https://dev-countdown-queries-service.toeichust.me/api/event-listener",
-    "https://countdown-queries-service.toeichust.me/api/event-listener",
+    "https://dev-countdown-queries-service.toeichust.me/api/event-listener",
+    # "https://countdown-queries-service.toeichust.me/api/event-listener",
 
   ]
 }
